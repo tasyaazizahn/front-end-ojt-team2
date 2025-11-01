@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed; /* biar nempel di atas */
+  top: 0; /* posisi paling atas */
+  left: 0; /* mulai dari pojok kiri */
+  right: 0;
+  width: auto;
+  margin-right: 0;
+  max-width: 100%; /* lebarnya sepanjang layar */
+  height: 80px; /* tinggi navbar */
+  background-color: #ffffff; /* kasih warna background */
+  display: flex; /* biar logo & link sejajar */
+  align-items: center; /* posisi vertikal di tengah */
+  justify-content: flex-start;
+  padding: 0 20px; /* jarak dalam kiri-kanan */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* efek bayangan halus */
+  z-index: 1000; /* biar gak ketimpa konten lain */
+}
+
+.navbar img {
+  height: 50px; /* ukuran logo */
+  width: 100px;
+  height: 50px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: green;
+  font-weight: light;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #8fdd8b; /* efek hover */
+}
