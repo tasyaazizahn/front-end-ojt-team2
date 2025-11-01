@@ -9,6 +9,7 @@ import "./components/Navbar.css";
 import "./components/Table.css";
 import "./components/Footer.css";
 
+
 function Home() {
   return (
     <React.StrictMode>

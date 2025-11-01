@@ -70,3 +70,27 @@ hr {
   text-align: center;
   padding-top: 20px;
 }
+
+.sosmed img {
+  width: 30px;
+}
+
+.sosmed ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sosmed li {
+  display: flex;
+  align-items: center; /* Biar logo & teks sejajar vertikal */
+  gap: 8px; /* Jarak antara logo dan teks */
+}
+
+.sosmed a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 30px;
+}

@@ -1,4 +1,6 @@
 import logo from "../assets/Logo Group.png";
+import Instagram from "../assets/instagram.png";
+
 
 function Footer() {
   return (
@@ -23,7 +25,8 @@ function Footer() {
             <div className="sosmed">
               <ul>
                 <li>
-                  <a href="instagram.com">Instagram</a>
+                  <img src={Instagram} alt="Instagram Geo Mandiri Kreasi" />
+                  <a href="instagram.com/geomakreasi">Instagram</a>
                 </li>
               </ul>
             </div>
