@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Button from "./components/Button";
 import PelatihanK3 from "./pages/PelatihanK3";
 import JadwalTraining from "./pages/JadwalTraining";
 import Footer from "./components/Footer";
