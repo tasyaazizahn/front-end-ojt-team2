@@ -16,8 +16,26 @@ h1 {
   align-items: center;
 }
 
+a.download-jadwal {
+  background-color: #ffffff;
+  color: #5f635d;
+  margin-left: 100px;
+  padding: 20px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
 .main-content {
   overflow-y: auto;
   padding: 100px 20px 40px; /* kasih jarak 100px biar gak ketiban navbar */
   min-height: 100vh; /* biar bisa discroll */
+}
+
+section {
+  margin: 100px;
+}
+
+button.btn.btn-primary {
+  margin-left: 50px;
+  margin-top: 50px;
 }

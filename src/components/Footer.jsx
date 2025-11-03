@@ -62,6 +62,7 @@ function Footer() {
                 </ul>
               </div>
               <div className="services">
+                <h4>Service</h4>
                 <ul>
                     <li>
                         <a href="">Divisi Konsultan</a>
